@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
 <config>
-        <ch1.className></ch1.className>
         <ch2.className>ch2.JpegReaderFactory</ch2.className>
         <ch3.className>ch3.PictureProxy</ch3.className>
-        <ch4.className></ch4.className>
-        <ch5.className></ch5.className>
-        <ch6.className></ch6.className>
+        <ch6.imageClassName>ch6.BmpImage</ch6.imageClassName>
+        <ch6.filterClassName>ch6.Cutout</ch6.filterClassName>
 </config>
