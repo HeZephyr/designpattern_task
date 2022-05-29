@@ -1,0 +1,8 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 数据源本地存储已忽略文件
+/../../../../../../../:\Documents\大三下\Java设计模式\课设\软开191贺志飞_5720191408_code\.idea/dataSources/
+/dataSources.local.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
