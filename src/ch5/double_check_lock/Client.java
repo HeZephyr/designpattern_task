@@ -6,12 +6,11 @@ public class Client {
         virtualUserGenerator1 = VirtualUserGenerator.getVirtualUserGenerator();
         virtualUserGenerator2 = VirtualUserGenerator.getVirtualUserGenerator();
 
-        System.out.println("软件开发191班 贺志飞 5720191408");
-        System.out.println("双重检测锁实现虚拟用户生成器");
+        System.out.println("双重检测锁实现的虚拟用户生成器测试");
+        System.out.println("打印virtualUserGenerator1：" + virtualUserGenerator1);
+        System.out.println("打印virtualUserGenerator2：" + virtualUserGenerator2);
         if (virtualUserGenerator1 == virtualUserGenerator2) {
-            System.out.println("是相同的虚拟用户生成器");
+            System.out.println("它们是同一个虚拟用户生成器");
         }
-        virtualUserGenerator1.generateUser();
-        virtualUserGenerator2.generateUser();
     }
 }

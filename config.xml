@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <config>
         <ch2.className>ch2.JpegReaderFactory</ch2.className>
         <ch3.className>ch3.PictureProxy</ch3.className>

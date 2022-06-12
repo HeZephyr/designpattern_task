@@ -24,4 +24,7 @@ public abstract class User {
      * 会议行为
      */
     public abstract void action(String info);
+    public String getName() {
+        return name;
+    }
 }

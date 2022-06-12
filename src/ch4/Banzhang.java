@@ -7,7 +7,7 @@ public class Banzhang extends Officer {
     @Override
     public void handleMission(Mission mission) {
         if (mission.getEnemyNumber() < 10) {
-            System.out.println("班长" + name + "，下达代号为" + mission.getCode() + "的作战任务，敌人数量为" + mission.getEnemyNumber());
+            System.out.println(name + "班长" +  "下达代号为" + mission.getCode() + "的作战任务，敌人数量为" + mission.getEnemyNumber());
         } else {
             if (this.successor != null) {
                 // 传给上级

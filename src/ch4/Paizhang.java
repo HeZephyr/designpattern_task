@@ -7,7 +7,7 @@ public class Paizhang extends Officer {
     @Override
     public void handleMission(Mission mission) {
         if (mission.getEnemyNumber() >= 10 && mission.getEnemyNumber() < 50) {
-            System.out.println("排长" + name + "，下达代号为" + mission.getCode() + "的作战任务，敌人数量为" + mission.getEnemyNumber());
+            System.out.println(name + "排长" + "下达代号为" + mission.getCode() + "的作战任务，敌人数量为" + mission.getEnemyNumber());
         } else {
             if (this.successor != null) {
                 // 传给上级

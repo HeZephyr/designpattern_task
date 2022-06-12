@@ -26,7 +26,6 @@ public class Client {
         meetingList.addUser(department2);
         meetingList.addUser(employee5);
 
-        System.out.println("软件开发191班 贺志飞 5720191408");
         meetingList.sendNotification();
     }
 }

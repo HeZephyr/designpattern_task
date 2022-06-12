@@ -7,7 +7,6 @@ public class Client {
         Application application;
         application = (Application) XmlUtils.getBean("ch3.className");
 
-        System.out.println("软件开发191班 贺志飞 5720191408");
         application.run();
     }
 }

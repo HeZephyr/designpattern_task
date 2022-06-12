@@ -24,9 +24,9 @@ public class Department extends User {
     }
 
     @Override
-    public void action(String info) {
+    public void action(String message) {
         for(Object member : members) {
-            ((User)member).action(info);
+            ((User)member).action(message);
         }
     }
 }

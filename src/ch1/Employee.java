@@ -20,7 +20,8 @@ public class Employee extends User {
     }
 
     @Override
-    public void action(String info) {
-        System.out.println(name + "收到会议通知：" + info);
+    public void action(String message) {
+        System.out.print(name + "收到会议通知！");
+        System.out.println("通知内容：" + message);
     }
 }
